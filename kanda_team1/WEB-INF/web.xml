@@ -1,0 +1,70 @@
+<web-app>
+	<servlet>
+		<servlet-name>loginMapping</servlet-name>
+		<servlet-class>servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>loginMapping</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserInsertServletMapping</servlet-name>
+		<servlet-class>servlet.UserInsertServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserInsertServletMapping</servlet-name>
+		<url-pattern>/UserInsert</url-pattern>
+	</servlet-mapping>
+
+		<servlet>
+		<servlet-name>AdminLoginServletMapping</servlet-name>
+		<servlet-class>servlet.AdministratorLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLoginServletMapping</servlet-name>
+		<url-pattern>/AdminLogin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ExhibitListMapping</servlet-name>
+		<servlet-class>servlet.ExhibitListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExhibitListMapping</servlet-name>
+		<url-pattern>/ExhibitList</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>sendFinishMapping</servlet-name>
+		<servlet-class>servlet.SendFinish</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sendFinishMapping</servlet-name>
+		<url-pattern>/sendFinish</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ProductMapping</servlet-name>
+		<servlet-class>servlet.ProductListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProductMapping</servlet-name>
+		<url-pattern>/product</url-pattern>
+	</servlet-mapping>
+
+		<servlet>
+		<servlet-name>productDetailMapping</servlet-name>
+		<servlet-class>servlet.ProductDetailServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>productDetailMapping</servlet-name>
+		<url-pattern>/productDetail</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+</web-app>
