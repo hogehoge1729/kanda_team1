@@ -1,0 +1,140 @@
+<web-app>
+	<servlet>
+		<servlet-name>loginMapping</servlet-name>
+		<servlet-class>servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>loginMapping</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserInsertServletMapping</servlet-name>
+		<servlet-class>servlet.UserInsertServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserInsertServletMapping</servlet-name>
+		<url-pattern>/UserInsert</url-pattern>
+	</servlet-mapping>
+
+		<servlet>
+		<servlet-name>AdminLoginServletMapping</servlet-name>
+		<servlet-class>servlet.AdministratorLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLoginServletMapping</servlet-name>
+		<url-pattern>/AdminLogin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ExhibitListMapping</servlet-name>
+		<servlet-class>servlet.ExhibitListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExhibitListMapping</servlet-name>
+		<url-pattern>/ExhibitList</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>sendFinishMapping</servlet-name>
+		<servlet-class>servlet.SendFinish</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sendFinishMapping</servlet-name>
+		<url-pattern>/sendFinish</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ProductMapping</servlet-name>
+		<servlet-class>servlet.ProductListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProductMapping</servlet-name>
+		<url-pattern>/product</url-pattern>
+	</servlet-mapping>
+
+		<servlet>
+		<servlet-name>productDetailMapping</servlet-name>
+		<servlet-class>servlet.ProductDetailServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>productDetailMapping</servlet-name>
+		<url-pattern>/productDetail</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>productStopMapping</servlet-name>
+		<servlet-class>servlet.ProductStopServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>productStopMapping</servlet-name>
+		<url-pattern>/productStop</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>purchaseCompletionMapping</servlet-name>
+		<servlet-class>servlet.PurchaseCompletionScreenServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>purchaseCompletionMapping</servlet-name>
+		<url-pattern>/purchaseCompletion</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>purchaseHistoryMapping</servlet-name>
+		<servlet-class>servlet.PurchaseHistoryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>purchaseHistoryMapping</servlet-name>
+		<url-pattern>/purchaseHistory</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>buyFinishMapping</servlet-name>
+		<servlet-class>servlet.BuyFinish</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>buyFinishMapping</servlet-name>
+		<url-pattern>/buyFinish</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>itemInsertMapping</servlet-name>
+		<servlet-class>servlet.ItemInsert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>itemInsertMapping</servlet-name>
+		<url-pattern>/itemInsert</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ReportServletMapping</servlet-name>
+		<servlet-class>servlet.ReportServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReportServletMapping</servlet-name>
+		<url-pattern>/ReportServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>memberMapping</servlet-name>
+		<servlet-class>servlet.MemberServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>memberMapping</servlet-name>
+		<url-pattern>/member</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>memberSearchMapping</servlet-name>
+		<servlet-class>servlet.MemberSearchServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>memberSearchMapping</servlet-name>
+		<url-pattern>/memberSearch</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>
